@@ -45,11 +45,11 @@ const app =
 
     let cookiesCut = cookiesString.split( ";" );
 
-    for( const cookie of cookiesCut )
-    {
-      const splitCookie = cookie.split( "=" );
-      app.cookies[ splitCookie[0].trim() ] = splitCookie[1].trim();
-    }
+    // for( const cookie of cookiesCut )
+    // {
+    //   const splitCookie = cookie.split( "=" );
+    //   app.cookies[ splitCookie[0].trim() ] = splitCookie[1].trim();
+    // }
   },
 
   // La fonction "handler" qui sera exécutée à la soumission du formulaire
